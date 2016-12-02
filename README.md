@@ -1,7 +1,21 @@
 # Trumpify
 
 Trumpify is a script to generate trump speeches based off a Markov model, with some seed words injected by the user.
-It uses the Markovify library, documentation reproduced below:
+It uses the Markovify library, documentation reproduced below.
+
+```
+virtualenv env
+source venv/bin/activate
+pip install -r requirements.txt
+python
+>> nltk.download()
+```
+After this download the entire "book" in the UI that pops up.
+
+```
+python ./trump_generator.py
+```
+
 
 
 ## Markovify
